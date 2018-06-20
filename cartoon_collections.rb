@@ -4,7 +4,7 @@ end
   # .each_with_index calls 2 arguments and enumerates each item
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.collect{|call| call.capitalize + "!"}
+  planeteer_calls.collect {|call| call.capitalize + "!"}
 end
   # .collect OR .map creates a new array containing the values returned by the block
 
