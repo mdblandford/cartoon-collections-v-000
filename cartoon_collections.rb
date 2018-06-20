@@ -9,9 +9,7 @@ end
   # .collect OR .map creates a new array containing the values returned by the block
 
 def long_planeteer_calls(calls)
-  calls.any? do |x|
-    x.length > 4
-  end
+  calls.any? {|x| x.length > 4}
 end
   # .any? allows us to search an array for elements containing the desired charcacterisitc
 
