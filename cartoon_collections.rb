@@ -15,8 +15,6 @@ end
 
 def find_the_cheese(foodArray)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  foodArray.find do |cheese|
-    cheese_types.include? (cheese)
-  end
+  foodArray.find {|cheese| cheese_types.include? (cheese)}
 end
   # proper syntax for an .include? method
