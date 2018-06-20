@@ -13,8 +13,8 @@ def long_planeteer_calls(calls)
 end
   # .any? allows us to search an array for elements containing the desired charcacterisitc
 
-def find_the_cheese(foodArray)
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  foodArray.find {|cheese| cheese_types.include? (cheese)}
+  array.find {|cheese| cheese_types.include? (cheese)}
 end
   # proper syntax for an .include? method
